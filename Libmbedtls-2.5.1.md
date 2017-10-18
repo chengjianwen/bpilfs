@@ -3,7 +3,7 @@ mbed TLS (formerly known as PolarSSL) makes it trivially easy for developers to 
 # Package Information
 *	Download (HTTP): https://tls.mbed.org/download/mbedtls-2.5.1-gpl.tgz
 *	Download MD5 sum: 313f637f65b5f6d74d45310482a9c84f
-* Download Size: 1.9 MB
+* Download Size: 1.85 MB
 # Installation of Libmbedtls
 Install libmbedtls by running the following commands:
 
