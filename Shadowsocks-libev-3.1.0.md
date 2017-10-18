@@ -1,21 +1,22 @@
 # Introduction to Shadowsocks-libev
 Shadowsocks-libev is a lightweight secured SOCKS5 proxy for embedded and low-end boxes.
 # Package Information
-*	Download (HTTP): https://github.com/shadowsocks/shadowsocks-libev/releases/download/v3.0.8/shadowsocks-libev-3.0.8.tar.gz
-*	Download MD5 sum: 872386adbda0252c9be895768ca26d79
-*	Download Size: 1.81MB
+*	Download (HTTP): https://github.com/shadowsocks/shadowsocks-libev/releases/download/v3.1.0/shadowsocks-libev-3.1.0.tar.gz
+*	Download MD5 sum: ff3887a3074536baa8f50756ff84eed6
+*	Download Size: 1.83MB
 # Shadowsocks-libev Dependencies
 ## Required
 libsodium
 libmbedtls
 libev
-udns
+libc-ares
 iptables
-ipset
+libmnl
+libipset
 # Installation of Shadowsocks-libev
 Install shadowsocks-libev by running the following commands:
 
-    cd shadowsocks-libev-3.0.8
+    cd shadowsocks-libev-3.1.0
     ./configure --prefix=/usr --disable-documentation &&
     make
 Now, as the root user:
